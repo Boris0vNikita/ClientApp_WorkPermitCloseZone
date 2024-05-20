@@ -1,0 +1,26 @@
+    // const sortedData = (): IWorkPermit[] => {
+    //     let sortedData = [...data];
+    //     if (sortConfig !== null) {
+    //         sortedData.sort((a: any, b: any) => {
+    //             if (a[sortConfig.key] < b[sortConfig.key]) {
+    //                 return sortConfig.direction === "ascending" ? -1 : 1;
+    //             }
+    //             if (a[sortConfig.key] > b[sortConfig.key]) {
+    //                 return sortConfig.direction === "ascending" ? 1 : -1;
+    //             }
+    //             return 0;
+    //         });
+    //     }
+    //     return sortedData.filter((transaction) =>
+    //         Object.values(transaction).some((value) => value.toLowerCase().includes(searchTerm.toLowerCase()))
+    //     );
+    // };
+
+    // const requestSort = (key: string) => {
+    //     let direction: "ascending" | "descending" = "ascending";
+    //     if (sortConfig && sortConfig.key === key && sortConfig.direction === "ascending") {
+    //         direction = "descending";
+    //     }
+    //     setSortConfig({ key, direction });
+    // onClick={() => requestSort("numberOutfits")}
+    // };
